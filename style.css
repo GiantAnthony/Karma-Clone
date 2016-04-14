@@ -1,19 +1,9 @@
-body, section{
-    margin: 0;
-    padding: 0;
-    border: 0;
-    font-size: 100%;
-    font: inherit;
-    vertical-align: baseline;
-    box-sizing: border-box;
-}
-
-
 
 body {
     /*background-color: LightGray;*/
     font-family: 'Roboto', sans-serif;
     -webkit-font-smoothing: antialiased;
+    margin: 0em;
 }
 
 .content {
@@ -23,44 +13,53 @@ body {
 }
 
 
-/**
- * Navigation Section
- */
+/**Nav**/
+
+/**color,position,margin,padding**/
 .top-navigation {
     background-color: #fff;
     position: fixed;
     width: 100%;
     border-bottom: 1px solid #DDD;
     z-index: 9999;
+    margin: 0em;
+    padding: -10em;
+
 }
+
 .top-navigation > .content {
     height: 4.375rem;
 }
+/** height of logo **/
 .top-navigation .logo {
     height: 4.375rem;
 }
+/** links color,margin-top,float right **/
 .top-navigation .links {
     float: right;
     color: #838994;
     font-size: 1.04rem;
     margin-top: 1.7rem;
 }
+/** links form left to right, margin left **/
 .top-navigation .links li {
     display: inline-block;
     margin-left: 1.563rem;
 }
+/**links when just display not touched**/
 .top-navigation .links li.active {
     color: #4c5058;
     font-weight: 500;
 }
+/** when linked is hovered by the cursor**/
 .top-navigation .links li:hover {
     cursor: pointer;
     color: #333333;
 }
 
-/**
- * Introduction Section
- */
+/**Introduction**/
+
+/** image, position,height,overflow**/
 .introduction {
     background-image: url('file:///Users/Anthony/Desktop/Project/Karma/images/first-background%20copy.jpg');
     background-position: center bottom;
@@ -74,20 +73,44 @@ body {
     color: white;
     text-align: center;
     font-weight: 300;
+    margin: .300em;
 }
+/** distance from top of the image **/
 .introduction h1 {
     margin-top: 17.5rem;
-    font-size: 3.125rem;
+    font-size: 3.041rem;
 }
+/** distance from h1 **/
 .introduction h3 {
-    margin-top: 1.25rem;
+    margin-top: .325rem;
     font-size: 1.563rem;
 }
-/**
- * The buttons
- */
+
+
+
+/**button**/
+
+/** center button, margin top from h3**/
 .introduction .buttons {
-    color: white;
     text-align: center;
-    margin-top: 1.563rem;
+    margin-top: 1.5rem;
 }
+
+/** color of text, padding, width of the button,border-color**/
+button {
+    color: #fff;
+    text-shadow: none;
+    border-radius: 4px;
+    padding: 1em 1.5em;
+    width: 10.6em;
+    background-color: #f15a29;
+    font-size: .925em;
+    border-color: #f15a29;
+    font-weight: 400;
+    border: none;
+}
+
+
+
+
+
