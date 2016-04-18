@@ -1,10 +1,5 @@
 body {
     margin: 0;
- 
-}
-
-body {
-    /*background-color: LightGray;*/
     font-family: 'Roboto', sans-serif;
     -webkit-font-smoothing: antialiased;
 }
@@ -18,9 +13,13 @@ body {
     outline: none;
 }
 
-/**
- * Navigation Section
- */
+
+
+
+
+/** Nav */
+
+/** total nav, background color, **/
 .top-navigation {
     background-color: #fff;
     position: fixed;
@@ -34,12 +33,16 @@ body {
 .top-navigation .logo {
     height: 4.375rem;
 }
+
+/** links from top and moved to right, color of link text **/
 .top-navigation .links {
     float: right;
     color: #838994;
     font-size: 1.04rem;
     margin-top: 1.7rem;
 }
+
+/** links line left to right **/
 .top-navigation .links li {
     display: inline-block;
     margin-left: 1.563rem;
@@ -48,14 +51,14 @@ body {
     color: #4c5058;
     font-weight: 500;
 }
+
+/** when cursor hoverd over link **/
 .top-navigation .links li:hover {
     cursor: pointer;
     color: #333333;
 }
 
-/**
- * Introduction Section
- */
+/** Introduction **/
 .introduction {
     background-image: url('file:///Users/Anthony/Desktop/Project/Karma/images/first-background%20copy.jpg');
     background-position: center bottom;
@@ -70,30 +73,26 @@ body {
     text-align: center;
     font-weight: 300;
 }
+
+/** space from top of image **/
 .introduction h1 {
     margin-top: 17.5rem;
     font-size: 3.125rem;
 }
+
+/** space from h1 **/
 .introduction h3 {
     margin-top: 1.25rem;
     font-size: 1.563rem;
 }
-/**
- * The buttons
- */
+
+/** Button **/
 .introduction .buttons {
     color: white;
     text-align: center;
     margin-top: 1.563rem;
 }
-.introduction .half {
-    width: 49%;
-    padding: 0 0.938rem;
-    display: inline-block;
-    vertical-align: bottom;
-    font-size: 1.125rem;
-    line-height: 1.2;
-}
+
 button {
     width: 9.688rem;
     background-color: #f15a29;
@@ -111,39 +110,37 @@ button:hover {
     cursor: pointer;
 }
 
-/**
- * The Three Case Images
- */
-.cases {
+/**Case 3 images**/
+.case {
     background-color: #fff;
     overflow: hidden;
     padding-bottom: 5rem;
 }
-.cases .content {
+.case .content {
     margin-top: 7.875rem;
     padding: none;
     color: #1d1e21;
     text-align: center;
 }
-.cases h2 {
+.case h2 {
     font-size: 2.75rem;
     margin: 1.625rem 0 3.125rem;
     font-weight: 300;
 }
-.cases .devices > li {
+.case .devices > li {
     width: 33.3333333%;
     float:left;
+    display: inline-block;
 }
-.cases .devices h3 {
+.case .devices h3 {
     font-weight: 400;
     font-size: 1.563rem;
     margin: 2.5rem 0px 1.875rem;
 }
-.cases .devices p {
+.case .devices p {
     font-weight: 300;
     font-size: 1.313rem;
 }
-
 
 
 /** Responsive Design **/
